@@ -1,0 +1,18 @@
+{
+  "name": "junyi-frontend-json-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch dist/db.json",
+    "db:reset": "./scripts/reset-db.sh"
+  },
+  "keywords": [],
+  "author": "Wei-Tang Lin <leo.lin@junyiacademy.org>",
+  "license": "MIT",
+  "dependencies": {
+    "faker": "5.1.0",
+    "json-schema-faker": "0.5.0-rcv.30",
+    "json-server": "0.16.2"
+  }
+}
